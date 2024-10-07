@@ -1,5 +1,9 @@
-* {
-    border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
+.intro {
+    border: 3px orange solid; 
+    border-radius: 10px;;
+    background-color: yellow;
+    padding: 1rem;
+    width: 80dvw;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
