@@ -1,16 +1,23 @@
 body {
-background-color: beige;
+background-color: #e4d9d9;
 }
 header{
     text-align: right;
-    padding: 1rem;
+    justify-content: flex-end;
+    padding: .3rem;
+    border: 2px #93162a;
+    background-color: #93162a;
+}
+.logo {
+    height: 3rem;
+    display: flex;
 }
 .main {
     display: grid;
   grid-template-columns: 59% 40% ;
   grid-template-rows: auto auto ;
   column-gap: 1rem;
-  background-color: #2196F3;
+  background-color: #e4d9d9;
   padding: 1rem;
 }
 .pfp{
