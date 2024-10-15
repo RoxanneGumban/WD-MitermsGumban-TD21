@@ -44,7 +44,40 @@ body {
             margin: .5rem;
         }
         .logo2 {
-        height: 5rem;
+        height: 6rem;
         margin: 0rem;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
         }
+}
+.stuff{
+        margin: 1rem;
+        background-color: #002642;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        padding: 1rem;
+        font-size: 15px;
+        text-align: center;
+        font-family: monospace;
+            h1{
+                color: #e4d9d9;
+                font-weight: bold;
+                font-size: 80px;
+            }
+            h2{
+                color: #e4d9d9;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            a{
+                color: #e59500;
+                font-size: 30px;
+            }
+}
+.end{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1rem;
 }

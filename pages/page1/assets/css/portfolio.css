@@ -6,7 +6,7 @@
 a {
     text-decoration: none;
 }
-body {
+body{
     background-image: url('back');
     background-color: #e4d9d9;
 }
@@ -44,8 +44,10 @@ body {
             margin: .5rem;
         }
         .logo2 {
-        height: 5rem;
+        height: 6rem;
         margin: 0rem;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
         }
 }
 .arts{
