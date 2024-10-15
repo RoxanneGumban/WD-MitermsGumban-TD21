@@ -62,8 +62,8 @@ Description of the project in details.
 Guiding Question:
 - What is the project: A resume/Portfolio
 - Whats the purpose: For Midterms in CCS0027
-- What are key components
-- What technology used and how it is used
+- What are key components: about me section, portfolio, and socials
+- What technology used and how it is used: HTML and CSS
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +117,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Grid Layout | Sample used to make the grids for the website | https://www.w3schools.com/css/css_grid.asp |
+| Grid Layout | Sample used to make the grids for the website | https://www.w3schools.com/css/tryit.asp?filename=trycss_grid |
+| Image Flip | Sample used to flip an image in css | https://www.w3schools.com/howto/howto_css_flip_image.asp |
+| Backgrounnd floating images | Sample used to make the images stay in the background... sorta... | https://stackoverflow.com/questions/20180081/css-background-color-with-floating-elements |
