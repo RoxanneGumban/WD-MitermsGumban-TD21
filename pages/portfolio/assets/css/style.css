@@ -19,7 +19,7 @@ body{
 .heddr {
         display: flex;
         background-color: #93162a;
-        nav {
+        .ass {
             display: flex;
             gap: .5rem;
         }
