@@ -12,6 +12,8 @@ body {
 .heddr, .heddr * {
         align-items: center;
         justify-content: space-between;
+        font-family: monospace;
+        font-weight: bold;
 }
 .heddr {
         display: flex;
@@ -27,7 +29,6 @@ body {
             margin: .5rem;
             border-radius: 15px;
             color: #e59500;
-            
             &.active{
                 border: 1rem #e59500 solid;
                 background-color: #e59500;
@@ -47,7 +48,7 @@ body {
         }
 }
 .hero{
-    height: 90dvh;
+    height: 5dvh;
     margin-right: 20%;
     margin-left: 20%;
     .main {
@@ -82,6 +83,7 @@ body {
                 margin-left: 3rem;
                 color: #02040f;
                 font-size: 35px;
+                font-family: "Courier New";
             }
             .Abm{
                 border: .5rem #002642 solid;
@@ -93,6 +95,7 @@ body {
                 margin-top: .5rem;
                 color: #e4d9d9;
                 font-size: 20px;
+                font-weight: bolder;
             }
             p{
                 margin-top: .5rem;
@@ -111,27 +114,102 @@ body {
         background-color: #e4d9d9;
         padding: 1rem;
         .skills{
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #002642;
             border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 20px;
             padding: 1rem;
-            font-size: 12px;
+            font-size: 15px;
             text-align: left;
+            font-family: monospace;
+            h1{
+             color: #e4d9d9;
+             font-weight: bold;
+            }
+            p{
+                color: #e59500;
+            }
             .percentbar {
                         width: 59%;
             }
         }
         .quali {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #002642;
             border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 20px;
             padding: 1rem;
-            font-size: 12px;
+            font-size: 15px;
             text-align: left;
+            font-family: monospace;
                 h2 {
                 margin: 0;
+                font-size: 25px;
+                color: #e4d9d9;
+                font-weight: bold;
                 }
                 h3 {
                 Margin: 0;
+                font-size: 15px;
+                color: #e4d9d9;
+                font-family: "Courier New";
+                }
+                p{
+                color: #e59500;
                 }
         }
     }
+.arts{
+    .portfolio {
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+        margin-top: 1rem;
+        background-color: #93162a;
+        border-radius: 50px;
+    }
+    .gallery {
+        border: .5rem #e59500 solid;
+        background-color: #e59500;
+        padding: 2rem;
+        border-radius: 20px;
+        text-align: center;
+        color: #002642;
+        font-size: 30px;
+        font-family: monospace;
+        margin-bottom: 3rem;
+    }
+    .collection{
+        display: flex;
+        gap: 20px;
+        margin-top: 1rem;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pics img{
+        width:100%;
+        height: 100;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}
 
+.content {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    clear: both;
+.left {
+    float: left;
+    height: 300px;
+    background: green;
+}
+
+.right {
+    float: right;
+    background: yellow;
+}
+}
