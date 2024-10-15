@@ -69,7 +69,8 @@ body {
         color: #002642;
         font-size: 30px;
         font-family: monospace;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
     .collection{
         display: flex;
@@ -99,11 +100,20 @@ body {
 .left {
     float: left;
     height: 300px;
+    margin-top: .5rem;
 }
 .right {
     float: right;
     height: 300px;
+    margin-top: .5rem;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+}
+.end{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1rem;
 }
