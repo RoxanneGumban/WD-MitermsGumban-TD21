@@ -6,7 +6,7 @@
 a {
     text-decoration: none;
 }
-body{
+body {
     background-image: url('back');
     background-color: #e4d9d9;
 }
@@ -19,7 +19,7 @@ body{
 .heddr {
         display: flex;
         background-color: #93162a;
-        .ass {
+        nav {
             display: flex;
             gap: .5rem;
         }
