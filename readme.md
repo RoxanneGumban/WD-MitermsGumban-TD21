@@ -60,8 +60,8 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
+- What is the project: A resume/Portfolio
+- Whats the purpose: For Midterms in CCS0027
 - What are key components
 - What technology used and how it is used
 
